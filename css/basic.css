@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+}
+
+/* Header */ 
+
+header {
+    padding: 20px;
+    background-color: darkolivegreen;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px; 
+}
+
