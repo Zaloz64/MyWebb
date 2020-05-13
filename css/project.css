@@ -2,3 +2,7 @@
 img {
     border-radius: 10%;
 }
+
+p {
+    padding: 0;
+}
