@@ -1,3 +1,38 @@
 main img {
     margin-top: 20px;
+    max-width: 385px;
+    min-width: 280px;
 }
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    main div {
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #active {
+        order: -1;
+    }
+
+    h2 {
+        margin-top: 20px;
+        padding-left: 20px;
+        
+    }
+
+    p {
+        padding-left: 20px;
+    }
+
+}
+
