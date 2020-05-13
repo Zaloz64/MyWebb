@@ -27,3 +27,11 @@ article p {
     color: orange;
     font-weight: 900;
 }
+
+
+/* In blog */
+
+.PostImg {
+    margin-top: 20px;
+    padding: 0;
+}
