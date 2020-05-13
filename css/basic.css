@@ -36,6 +36,10 @@ img {
     border-radius: 2%;
 }
 
+p {
+    padding: 20px 0;
+}
+
 /* Projct abd blog posts */
 
 .grid {
@@ -46,13 +50,18 @@ img {
 }
 
 article {
-    max-width: 288px;
+    min-width: 288px;
+    max-width: 385px;
     display: flex;
     flex-direction: column;
     padding: 0 0 20px 0;
+    margin-bottom: 20px;
 }
 
-
+.quotes {
+    background-color: #FFDFBE;
+    padding: 0 20px;
+}
 
 /* Footer */
 
@@ -67,4 +76,8 @@ footer h2 {
 
 footer h4 {
     padding: 10px 0;
+}
+
+footer p {
+    padding: 0;
 }
