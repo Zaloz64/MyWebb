@@ -32,7 +32,7 @@ main {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 2%;
 }
 
@@ -54,13 +54,15 @@ article {
     max-width: 385px;
     display: flex;
     flex-direction: column;
-    padding: 0 0 20px 0;
+    padding: 0 20px 20px 20px;
     margin-bottom: 20px;
 }
 
 .quotes {
     background-color: #FFDFBE;
     padding: 0 20px;
+    margin: 10px;
+    font-style: italic;
 }
 
 /* Footer */
@@ -80,4 +82,15 @@ footer h4 {
 
 footer p {
     padding: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+    main {
+        margin: 40px;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
 }
