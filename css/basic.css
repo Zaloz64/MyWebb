@@ -1,14 +1,16 @@
 
 * {
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Header */ 
 
 header {
     padding: 20px;
-    background-color: darkolivegreen;
+    background-color: orange;
     color: white;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -17,9 +19,52 @@ nav {
     padding-top: 10px;
 }
 
-a {
+nav a {
     color: white;
     text-decoration: none;
     padding-left: 10px; 
 }
 
+/* Main content */
+
+main {
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 2%;
+}
+
+/* Projct abd blog posts */
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 0;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #FFDFBE;
+    padding: 90px 20px;
+}
+
+footer h2 {
+    padding-bottom: 10px;
+}
+
+footer h4 {
+    padding: 10px 0;
+}
