@@ -40,30 +40,6 @@ p {
     padding: 20px 0;
 }
 
-/* Projct abd blog posts */
-
-.grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-article {
-    min-width: 288px;
-    max-width: 385px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px 20px 20px;
-    margin-bottom: 20px;
-}
-
-.quotes {
-    background-color: #FFDFBE;
-    padding: 0 20px;
-    margin: 10px;
-    font-style: italic;
-}
 
 /* Footer */
 
@@ -89,6 +65,19 @@ footer h4 {
 
 footer p {
     padding: 0;
+}
+
+/* Quotes */
+
+blockquote p {
+    background-color: #FFDFBE;
+    padding: 20px 20px 10px 20px;
+    font-style: italic;
+}
+
+.quotes footer {
+    background-color: white;
+    padding: 0 0 10px 0;
 }
 
 
@@ -121,5 +110,29 @@ footer p {
         padding: 0 50px;
     }
     
-    
+
+
+    h1 {
+        font-size: 75px;
+    }
+
+    header a {
+        font-size: 30px;
+    } 
+}
+
+@media screen and (min-width: 1024px) {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
 }
