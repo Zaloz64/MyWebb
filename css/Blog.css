@@ -14,7 +14,7 @@ img {
 
 article {
     text-align: center;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 
 article div {
@@ -33,6 +33,43 @@ article p {
     font-weight: 900;
 }
 
+@media screen and (min-width: 1024px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "a1 a2"
+        "a3 .";
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "a1 a2 a3";
+    }
+
+}
+
+.articel1 {
+    grid-area: a1;
+}
+
+.articel2 {
+    grid-area: a2;
+}
+
+.articel3 {
+    grid-area: a3;
+}
+
 
 /* In blog */
 
@@ -45,6 +82,17 @@ article p {
 
 footer {
     clear: both;
+}
+
+blockquote {
+    display: grid;
+}
+
+
+blockquote footer {
+    padding: 0;
+    background-color: white;
+    clear: none;    
 }
 
 
