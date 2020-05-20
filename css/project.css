@@ -1,4 +1,20 @@
 
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    min-width: 288px;
+    max-width: 385px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
 img {
     border-radius: 10%;
 }
