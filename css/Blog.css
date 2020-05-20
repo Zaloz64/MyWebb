@@ -36,10 +36,17 @@ article p {
 
 /* In blog */
 
+
+
 .PostImg {
     margin-top: 20px;
     padding: 0;
 }
+
+footer {
+    clear: both;
+}
+
 
 @media screen and (min-width: 768px) {
     .PostImg {
