@@ -2,6 +2,7 @@ main img {
     margin-top: 20px;
     max-width: 385px;
     min-width: 280px;
+    height: auto;
 }
 
 
