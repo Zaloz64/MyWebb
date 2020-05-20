@@ -76,6 +76,9 @@ footer {
     padding: 20px;
 }
 
+
+
+
 footer h2 {
     padding-bottom: 10px;
 }
@@ -97,4 +100,26 @@ footer p {
     nav a {
         font-size: 20px;
     }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .FooterContent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .FooterFollowInfo {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .FooterContent div {
+        padding: 0 50px;
+    }
+    
+    
 }
