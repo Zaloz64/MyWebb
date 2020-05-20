@@ -72,6 +72,10 @@ footer {
     padding: 90px 20px;
 }
 
+.FooterContent {
+    padding: 20px;
+}
+
 footer h2 {
     padding-bottom: 10px;
 }
