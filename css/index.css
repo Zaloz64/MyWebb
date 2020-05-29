@@ -3,37 +3,111 @@ main img {
     max-width: 385px;
     min-width: 280px;
     height: auto;
+    border-radius: 0;
 }
 
+section {
+    background-color: #EDC7B7  
+    ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template: 
+    "insta link"
+    "twitter face"
+    "youtube youtube";
+    justify-items: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.icons {
+    width: 100%;
+}
+
+@media screen and (max-width: 424px) {
+    #youtube_container {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template: 
+        "insta link twitter"
+        "face youtube";
+    }
+    /* #youtube_container {
+        grid-column-start: 3;
+        grid-column-end: 3;
+    } */
+}
 
 
 @media screen and (min-width: 768px) {
 
-
-    main div {
+    #index_img_text {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+    }
 
+    main img {
+        padding-right: 20px;
+    }
+
+    p {
+        padding-bottom: 0;
     }
     
     main {
         display: flex;
         flex-direction: row;
+        padding-left: 20px;
     }
 
-    #active {
-        order: -1;
-    }
 
     h2 {
         margin-top: 20px;
-        padding-left: 20px;
-        
     }
 
-    p {
-        padding-left: 20px;
+    section{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template: 
+        "insta link twitter face youtube";
     }
 
 }
+
+
+#instagram{
+    grid-area: insta;
+}
+
+#linkedin {
+    grid-area: link;
+}
+
+#twitter {
+    grid-area: twitter;
+}
+
+#facebook {
+    grid-area: face;
+}
+
+#youtube {
+    grid-area: youtube;
+    
+}
+
+
+
 
