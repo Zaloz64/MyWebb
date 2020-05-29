@@ -2,13 +2,14 @@
 * {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.75em
 }
 
 /* Header */ 
 
 header {
     padding: 20px;
-    background-color: orange;
+    background-color: #ac3b61;
     color: white;
     margin-bottom: 20px;
 }
@@ -23,6 +24,10 @@ nav a {
     color: white;
     text-decoration: none;
     padding-left: 10px; 
+}
+
+a:hover {
+    color: #123C69;
 }
 
 /* Main content */
@@ -40,11 +45,15 @@ p {
     padding: 20px 0;
 }
 
+h2 {
+    color: #123C69;
+}
+
 
 /* Footer */
 
 footer {
-    background-color: #FFDFBE;
+    background-color: #EEE2DC;
     padding: 90px 20px;
 }
 
@@ -82,12 +91,15 @@ blockquote p {
 
 
 @media screen and (min-width: 768px) {
+    nav a {
+        font-size: 30px;
+        padding-left: 30px;
+    }
+   
+   
+   
     main {
         margin: 40px;
-    }
-
-    nav a {
-        font-size: 20px;
     }
 
     footer {
