@@ -18,9 +18,8 @@ article {
 }
 
 article div {
-    background-color: #FFDFBE;
+    /* background-color: #FFDFBE; */
     padding-bottom: 10px; 
-    box-shadow: 10px 10px 5px lightgrey;
 }
 
 article p {
@@ -29,11 +28,11 @@ article p {
 
 .ReadMore {
     text-decoration: none;
-    color: orange;
+    color: #ac3b61;
     font-weight: 900;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
 
     .grid {
         display: grid;
