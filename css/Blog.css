@@ -45,11 +45,14 @@ main {
   }
 
 @media screen and (min-width: 768px) {
+<<<<<<< HEAD
 
 .colum {
     flex: 50%;
     max-width: 50%;
 }
+=======
+>>>>>>> ff0b71142d72cc239f7467333c6ed74867ff5fd4
 
 
 }
