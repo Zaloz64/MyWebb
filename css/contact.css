@@ -19,8 +19,12 @@ img {
     font-size: 20px;
 }
 
+.inputfieldsDesign:hover {
+    border-color: #123C69;
+}
+
 #ContactButtonDesign {
-    background-color: orange;
+    background-color: #123C69;
     color: white;
     border-style: none;
     font-size: 15px;
