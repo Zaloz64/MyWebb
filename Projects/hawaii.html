@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-
-=======
->>>>>>> ff0b71142d72cc239f7467333c6ed74867ff5fd4
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<<<<<<< HEAD
-
-    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/proj.css">
+    <link rel="stylesheet" href="../css/basic.css">   
+     <script src="basic.js"></script>
+     <link rel="stylesheet" href="basic.js">
 </head>
 
 <body>
 
-    <header>
-        <h1>Hawaii</h1>
-        <nav>
-            <a href="../index.html">Home</a>
-            <a id="underline" href="../project.html">Projects</a>
-            <a href="../blog.html">Blog</a>
-            <a href="../contact.html">Contact</a>
-        </nav>
-    </header>
+    <div class="top_of_site">
+        <header>
+            <h1>Projects</h1>
+    
+        </header>
+        
+        <div class="topnav">
+            <!-- Navigation links (hidden by default) -->
+    
+            <a href="javascript:void(0);" class="hamburger_menu" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+    
+            <nav id="myLinks">
+                <a class="nav_a" href="../index.html">Home</a>
+                <a class="nav_a" id="underline"  href="../project.html">Projects</a>
+                <a class="nav_a" href="../blog.html">Blog</a>
+                <a class="nav_a" href="../contact.html">Contact</a>
+            </nav>
+        </div>
+    </div>
 
     <main>
         <h2>Game goal</h2>
+
+<!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img src="../img/indexPics/uriel-soberanes-MxVkWPiJALs-unsplash.jpg" alt="Nature" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../img/indexPics/stellan-johansson-1PP0Fc-KSd4-unsplash.jpg" alt="Snow" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="../img/indexPics/markus-spiske-68ZlATaVYIo-unsplash.jpg" alt="Mountains" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+        <img src="../img/indexPics/nikita-kachanovsky-g-YiX8ynmnY-unsplash.jpg" alt="Lights" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <!-- The expanding image container -->
+  <div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg" style="width:100%">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+<!--         
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas blanditiis inventore, nihil quam et
             deserunt beatae voluptatibus dicta cum vitae numquam provident architecto eligendi esse rem exercitationem
             autem harum sint.
@@ -48,59 +87,30 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio delectus porro molestias est
                 necessitatibus! Iusto fugit sint corrupti consequatur, animi saepe qui et asperiores, adipisci modi
                 alias labore dolor numquam.</p>
-        </details>
+        </details> -->
 
 
     </main>
 
 
 
-
     <footer>
         <div class="FooterContent">
-            <h2>Zoé Opdendries</h2>
+            <h2>Zoé: Tech And Me</h2>
             <div>
                 <h4>Contact Info</h4>
                 <p>Tel: +46...</p>
                 <p>Email: zoe@zalo.se</p>
             </div>
-        </div>
-    </footer>
-
-</body>
-
-=======
-    
-    <link rel="stylesheet" href="../css/basic.css">
-</head>
-<body>
-
-    <header>
-        <h1>Zoé: Tech And Me</h1>
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="../project.html">Projects</a>
-            <a href="../blog.html">Blog</a>
-            <a href="../contact.html">Contact</a>
-        </nav>
-    
-     
-    </header>
-
-
-
-    
-    <footer>
-        <div class="FooterContent">
-          <h2>Zoé Opdendries</h2>
-           <div>
-               <h4>Contact Info</h4>
-                <p>Tel: +46...</p>
-                <p>Email: zoe@zalo.se</p>
+            <div>
+                <h4>Placment</h4>
+                <p>Sweden</p>
+                <p>Adress: None</p>
             </div>
-     </div>
+        </div>
+        
     </footer>
-    
 </body>
->>>>>>> ff0b71142d72cc239f7467333c6ed74867ff5fd4
+
+
 </html>

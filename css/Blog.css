@@ -1,7 +1,5 @@
 
 
-
-
 img {
     max-width: 100%;
     padding-bottom: 10px;
@@ -33,7 +31,7 @@ article p {
     color: #ac3b61;
     font-weight: 900;
 }
-main {
+.row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -45,14 +43,11 @@ main {
   }
 
 @media screen and (min-width: 768px) {
-<<<<<<< HEAD
 
 .colum {
     flex: 50%;
     max-width: 50%;
 }
-=======
->>>>>>> ff0b71142d72cc239f7467333c6ed74867ff5fd4
 
 
 }
