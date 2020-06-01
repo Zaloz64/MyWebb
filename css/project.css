@@ -14,6 +14,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 70px 0 0px 0;
+<<<<<<< HEAD
 }
 
 #see_projects {
@@ -94,6 +95,45 @@ article:hover {
 .projects:hover {
     transform: scale(0.8);
     /* Make so it happens at same time */
+=======
+}
+
+#see_projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0 20px;
+
+    color: white;
+}
+
+#see_projects:hover {
+    color: #123C69;
+}
+
+#arrow {
+    max-width: 50px;
+}
+
+main {
+    margin: 0;
+}
+
+.grid {
+    align-items: center;
+    justify-items: center;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.projects p {
+    font-weight: 700;
+>>>>>>> ff0b71142d72cc239f7467333c6ed74867ff5fd4
 }
 
 p {
@@ -144,14 +184,25 @@ p {
 
 
 
+<<<<<<< HEAD
 /* grid-areas and backgroundcolors */
+=======
+/* grid-areas and styling for diffrent projects */
+
+.projects_container:hover {
+    box-shadow: inset 0 0 20px black;
+}
+>>>>>>> ff0b71142d72cc239f7467333c6ed74867ff5fd4
 
 #proj1 {
     grid-area: p1;
 }
 #proj1_container {
     background-color: lightgray;
+<<<<<<< HEAD
     border-collapse: collapse; 
+=======
+>>>>>>> ff0b71142d72cc239f7467333c6ed74867ff5fd4
 }
 
 #proj2 {
