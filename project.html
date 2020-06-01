@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,64 +9,106 @@
     <link rel="stylesheet" href="css/project.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-<header>
-    <h1>Projects</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="project.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
 
-<main>
+    <header id="projects_header1">
+        <h1>Projects</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a id="underline" href="project.html">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <div class="grid">
-        <article>
-            <img src="img/BlueBird.png" alt="">
-            <h4>Game name</h4>
-            <p>Small disctiption on product.</p>
-        </article>
+    <header id="projects_header2">
+        <h2>Game Developer</h2>
+        <p>Create small indie games. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec iaculis mauris.
+        </p>
+        <a id="see_projects" href="#proj_contant">
+            <p>VIEW PROJECTS</p>
+            <div id="arrow"><img src="https://img.icons8.com/carbon-copy/100/000000/down--v1.png" /></div>
+        </a>
 
-        <article>
-                <img src="img/BlueBird.png" alt="">
-                <h4>Game name</h4>
-                <p>Small disctiption on product.</p>
-        </article>
+    </header>
 
-        <article>
-                <img src="img/BlueBird.png" alt="">
-                <h4>Game name</h4>
-                <p>Small disctiption on product.</p>
-        </article>
+    <main>
+        <div class="grid" id="proj_contant">
+           
+            <article onclick="location.href='Projects/hawaii.html';" id="proj1_container">
+                <p class="projects" id="proj1">Hawaii</p>
 
-        <article>
-                <img src="img/BlueBird.png" alt="">
-                <h4>Game name</h4>
-                <p>Small disctiption on product.</p>
-        </article>
+                <div id="discription_proj">
+                    <p>A shooting game!</p>
+                </div>
+            </article>
 
+            <article id="proj2_container" class="projects_container">
+                <div class="projects" id="proj2">
+                    <p>Slimey</p>
+                </div>
+            </article>
 
-    </div>
+            <article id="proj3_container" class="projects_container">
+                <div class="projects" id="proj3">
+                    <p>A game</p>
+                </div>
+            </article>
 
-</main>
+            <article id="proj4_container" class="projects_container">
+                <div class="projects" id="proj4">
+                    <p>Antother Game</p>
+                </div>
+            </article>
 
-<footer>
-    <div class="FooterContent">
-        <h2>Zoé Opdendries</h2>
-        <div>
-            <h4>Contact Info</h4>
-            <p>Tel: +46...</p>
-            <p>Email: zoe@zalo.se</p>
+            <article id="proj5_container" class="projects_container">
+                <div class="projects" id="proj5">
+                    <p>This Game</p>
+                </div>
+            </article>
+
+            <article id="proj6_container" class="projects_container">
+                <div class="projects" id="proj6">
+                    <p>That Game</p>
+                </div>
+            </article>
+
+            <article id="proj7_container" class="projects_container">
+                <div class="projects" id="proj7">
+                    <p>A game</p>
+                </div>
+            </article>
+
+            <article id="proj8_container" class="projects_container">
+                <div class="projects" id="proj8">
+                    <p>idk Game</p>
+                </div>
+            </article>
+
+            <article id="proj9_container" class="projects_container">
+                <div class="projects" id="proj9">
+                    <p>Game</p>
+                </div>
+            </article>
+
         </div>
-        <div class="FooterFollowInfo">
-            <h4>Follow</h4>
-            <a href="">Instagram</a>
-            <a href="">Facebook</a>
+
+    </main>
+
+    <footer>
+        <div class="FooterContent">
+            <h2>Zoé Opdendries</h2>
+            <div>
+                <h4>Contact Info</h4>
+                <p>Tel: +46...</p>
+                <p>Email: zoe@zalo.se</p>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+
+    <script src="basic.js"></script>
+
 </body>
+
 </html>
