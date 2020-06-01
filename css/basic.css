@@ -12,17 +12,16 @@ html {
 
 /* Header */ 
 
+
 header {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     background-color: #ac3b61;
     color: white;
-    margin-bottom: 20px;
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EDC7B7;
 }
 
 nav a {
@@ -37,7 +36,6 @@ a:hover {
 
 #underline {
     text-decoration: underline;
-    color: #EEE2DC;
 }
 
 /* Main content */
@@ -48,7 +46,7 @@ main {
 
 img {
     width: 100%;
-    border-radius: 2%;
+
 }
 
 p {
@@ -100,12 +98,63 @@ blockquote p {
 }
 
 
+@media screen and (max-width: 768px) {
+
+    .top_of_site {
+        background-color: #ac3b61;
+
+    }
+    .hamburger_menu {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 20px;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .topnav {
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+      .topnav #myLinks {
+        display: none;
+    }
+    
+      .nav_a {
+        color: #123C69;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+}
+
+
 @media screen and (min-width: 768px) {
     nav a {
         font-size: 30px;
         padding-left: 30px;
     }
+
+    .topnav #myLinks {
+        display: block;
+    }
+
+    nav {
+        background-color: #ac3b61;
+
+    }
    
+    
+    a:hover {
+        color: #123C69;
+    }
+    .hamburger_menu i {
+        display: none;
+    }
    
    
     main {
