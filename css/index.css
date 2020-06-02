@@ -32,31 +32,18 @@ section {
     transform: scale(1.3);
 }
 
-.latest {
-    display: grid;
-    grid-template-columns: repeat(5, 50%);
-    grid-template-rows: 1;
-    margin: 4px 0;
-    overflow: hidden;
+.tns-nav {
+    display: none;
+}
+
+.latest{
+    width: 25%
 }
 
 .latest div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: white;
     font-weight: 700;
-    position: relative;
     text-align: center;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-}
-
-.latest_txt {
-    position: absolute;
-    max-width: 80%;
 }
 
 .latest a {
@@ -66,13 +53,30 @@ section {
     border-color: white;
     font-weight: 200;
     padding: 4px 5px;
-    margin-top: 75px;
+
 }
 
 .latest a:hover {
     background-color: white;
     color: black;
 }
+
+.imageblip
+{
+    position: relative;
+}
+
+.imageBlipText
+{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 30%; 
+}
+
+
 
 @media screen and (max-width: 424px) {
     #youtube_container {

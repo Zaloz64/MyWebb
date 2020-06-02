@@ -1,6 +1,6 @@
 /* The grid: Four equal columns that floats next to each other */
 .column {
-    float: left;
+    /* float: left; */
     width: 25%;
     padding: 10px;
   }
@@ -46,3 +46,50 @@
     font-size: 35px;
     cursor: pointer;
   }
+
+
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+@media screen and (min-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "bigpic bigpictext"
+    "smalpic smalpic"
+    "afterPost afterPost";
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+}
+
+h2 {
+  grid-area: header;
+}
+
+.container {
+  grid-area: bigpic;
+}
+
+main p {
+  grid-area: bigpictext;
+}
+
+.rows {
+  grid-area: smalpic;
+}
+
+section {
+  grid-area: afterPost;
+}

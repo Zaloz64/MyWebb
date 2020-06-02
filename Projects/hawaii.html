@@ -6,9 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/proj.css">
-    <link rel="stylesheet" href="../css/basic.css">   
-     <script src="basic.js"></script>
-     <link rel="stylesheet" href="basic.js">
+    <link rel="stylesheet" href="../css/basic.css">  
+    
+    <script>
+    
+    function functionBig(img) {
+    var expandImg = document.getElementById("expandedImg");
+    expandImg.src = img.src;
+    expandImg.parentElement.style.display = "block";
+}
+    
+    </script>
+
 </head>
 
 <body>
@@ -36,41 +45,36 @@
     </div>
 
     <main>
-        <h2>Game goal</h2>
+        <h2>The Hawaii Game</h2>
 
-<!-- The grid: four columns -->
-<div class="row">
-    <div class="column">
-      <img src="../img/indexPics/uriel-soberanes-MxVkWPiJALs-unsplash.jpg" alt="Nature" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="../img/indexPics/stellan-johansson-1PP0Fc-KSd4-unsplash.jpg" alt="Snow" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-      <img src="../img/indexPics/markus-spiske-68ZlATaVYIo-unsplash.jpg" alt="Mountains" onclick="myFunction(this);">
-    </div>
-    <div class="column">
-        <img src="../img/indexPics/nikita-kachanovsky-g-YiX8ynmnY-unsplash.jpg" alt="Lights" onclick="myFunction(this);">
-    </div>
-  </div>
-  
-  <!-- The expanding image container -->
-  <div class="container">
-    <!-- Close the image -->
-    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-  
-    <!-- Expanded image -->
-    <img id="expandedImg" style="width:100%">
-  
-    <!-- Image text -->
-    <div id="imgtext"></div>
-  </div>
-<!--         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas blanditiis inventore, nihil quam et
-            deserunt beatae voluptatibus dicta cum vitae numquam provident architecto eligendi esse rem exercitationem
-            autem harum sint.
-        </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas blanditiis inventore, nihil quam et
+        deserunt beatae voluptatibus dicta cum vitae numquam provident architecto eligendi esse rem exercitationem
+        autem harum sint.
+    </p>
 
+       <!-- The expanding image container -->
+       <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
+    </div>
+
+  <div class="row">
+        <div class="column">
+          <img src="../img/projimg/christian-wiediger-WkfDrhxDMC8-unsplash.jpg" alt="Nature" onclick="functionBig(this)">
+        </div>
+        <div class="column">
+          <img src="../img/projimg/fabian-albert--yePUylDPJQ-unsplash.jpg" alt="Snow" onclick="functionBig(this);">
+        </div>
+        <div class="column">
+          <img src="../img/projimg/fredrick-tendong--GMUHeFuJUs-unsplash.jpg" alt="Mountains" onclick="functionBig(this);">
+        </div>
+        <div class="column">
+            <img src="../img/projimg/igor-karimov-M1nZU61xTK4-unsplash.jpg" alt="Lights" onclick="functionBig(this);">
+        </div>
+      </div>
+
+    <section>
         <details>
             <summary>Game Character</summary>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio delectus porro molestias est
@@ -87,7 +91,8 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio delectus porro molestias est
                 necessitatibus! Iusto fugit sint corrupti consequatur, animi saepe qui et asperiores, adipisci modi
                 alias labore dolor numquam.</p>
-        </details> -->
+        </details>
+    </section>
 
 
     </main>
@@ -110,6 +115,7 @@
         </div>
         
     </footer>
+   
 </body>
 
 

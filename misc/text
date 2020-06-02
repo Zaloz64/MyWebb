@@ -13,3 +13,21 @@ Colors:
 #bab2B5
 #123C69
 #ac3b61
+
+
+Jag hade suttit med blogg sidan en hel del denna helg och gjort om designen några gånger. Första gången jag ändrade den ville jag att varje articel i columnerna skulle ha olika höjder då så att det inte riktigt fanns olika rows med raka linjer. Detta tog ett bra tag att lista ut då det inte hände något när jag försökte lösa problemet och använda andras lösningar. Detta löste jag dock genom att ta en paus och sen kolla igenom allt igen. Då insåg jag att jag targetade fel när jag skulle fixa så att i flexboxen så var elementen på sidan inte strech. När jag väl hade fått det att fungera mellan olika views insåg jag att det inte såg så snyggt ut och att raka linjer var något jag var ute efter. Därför skapade jag bakgrund-color bakom varje inlägg för att skapa mer av ett grid. Detta såg mer profisionellt ut i mina ögon. 
+
+Något som jag skulle vilja fokusera mer på i framtiden är animationer och att kunna göra den mer interaktiv. Jag känner att jag kan grunderna för att skapa en bra layout på sidan hur jag vill. Exempel skulle vara en första sida som sweper in och så kan man börja scrolla så kommer olika content up. Bilderna skrollar lite med en och/eller försvinner.
+
+ps. sorry om det inte riktigt går att förstå något. Har dyslexi så ibland blir svenskan inte så bra när man inte bearbetar text på samma sätt. 
+
+det gick bakgrundförrut
+använda bättre
+enklare att mobilanpassa
+därför gjorde jag såhär
+nöjd med sidanproblem med sidan
+löste det
+bäst med projektet
+förbättra framtiden
+
+
